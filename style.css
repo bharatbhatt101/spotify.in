@@ -4,6 +4,10 @@
     border: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
 
     background-color: black;
@@ -24,23 +28,25 @@ body {
 
     background-color: rgb(37, 36, 36);
     border: none;
-    border-radius: 10px;
+    border-radius: 1rem;
     height: 30%;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 1rem;
+    margin-top: 1rem;
 
 
 }
 
-
+.mobspo,.mobspo1 {
+    display: none;
+}
 
 .spo a {
     text-decoration: none;
     color: white;
     display: block;
-    font-size: 20px;
-    padding-left: 20px;
-    padding-top: 15px;
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
 
 
 }
@@ -53,49 +59,46 @@ body {
 
     background-color: rgb(37, 36, 36);
     border: none;
-    margin-top: 5px;
-    width: 250px;
-    border-radius: 10px;
+    margin-top: .5rem;
+    width: 25rem;
+    border-radius: 1rem;
     height: 65%;
-    margin-left: 10px;
+    margin-left: 1rem;
 
 }
 
-.spo1_2 .a2
-{
-      color: rgb(100, 99, 99);
-      font-size:14px;
-      margin-top:25px;
+.spo1_2 .a2 {
+    color: rgb(100, 99, 99);
+    font-size: 1.4rem;
+    margin-top: 2.5rem;
 
 }
 
-.spo1_2 .a2:hover
-{
-    text-decoration:underline;
+.spo1_2 .a2:hover {
+    text-decoration: underline;
 }
 
 
-.spo1_2 button
-{
-    background-color:transparent ;
-    color:white;
-    font-size:15px;
-    border:2px solid grey;
-    margin-top:35px;
-    margin-left:12px;
-    border-radius:20px;
-    padding:10px;
+.spo1_2 button {
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    border: .2rem solid grey;
+    margin-top: 3.5rem;
+    margin-left: 1.2rem;
+    border-radius: 2rem;
+    padding: 1rem;
 }
-.spo1_2 button:hover
-{
-    background-color:transparent ;
-    color:white;
-    font-size:15px;
-    border:2px solid white;
-    margin-top:35px;
-    margin-left:12px;
-    border-radius:20px;
-    padding:10px;
+
+.spo1_2 button:hover {
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    border: .2rem solid white;
+    margin-top: 3.5rem;
+    margin-left: 1.2rem;
+    border-radius: 2rem;
+    padding: 1rem;
     cursor: pointer;
 }
 
@@ -113,9 +116,9 @@ body {
     text-decoration: none;
     color: white;
     display: block;
-    padding-top: 15px;
-    padding-left: 20px;
-    font-size: 20px;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    font-size: 2rem;
 
 
 }
@@ -124,15 +127,15 @@ body {
 
 
     color: rgb(100, 99, 99);
-    margin-top: 15px;
-    margin-left: 55px;
-    border: 2px solid transparent;
+    margin-top: 1.5rem;
+    margin-left: 5.5rem;
+    border: .2rem solid transparent;
     background-color: transparent;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    font-size: 20px;
-    padding: 5px;
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+    padding: .5rem;
 
 }
 
@@ -140,17 +143,17 @@ body {
 
 
 
-    padding: 5px;
+    padding: .5rem;
     color: white;
-    margin-top: 15px;
-    margin-left: 55px;
-    border: 2px solid rgb(82, 82, 82);
+    margin-top: 1.5rem;
+    margin-left: 5.5rem;
+    border: .2rem solid rgb(82, 82, 82);
     background-color: rgb(82, 82, 82);
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 2rem;
+    height: 2rem;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .spo1 a:hover {
@@ -161,21 +164,21 @@ body {
 
     background-color: rgb(65, 65, 65);
     border: none;
-    border-radius: 10px;
-    height: 120px;
-    width: 230px;
-    margin-left: 10px;
-    margin-top: 10px;
-    padding:3px;
+    border-radius: 1rem;
+    height: 12rem;
+    width: 23rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: .3rem;
 
 }
 
 .spo2 b {
 
-    
+
     color: white;
-    margin-left:10px;
-    
+    margin-left: 1rem;
+
 
 }
 
@@ -183,22 +186,22 @@ body {
 
 
     color: white;
-    margin-top:20px;
-    margin-left:10px;
+    margin-top: 2rem;
+    margin-left: 1rem;
 }
 
 .spo2 button {
-    
-    font-size: 15px;
+
+    font-size: 1.5rem;
     border: none;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 2rem;
+    padding: 1rem;
     background-color: white;
     cursor: pointer;
-    margin-top:18px;
-    margin-left:10px;
-    
-    
+    margin-top: 1.8rem;
+    margin-left: 1rem;
+
+
 
 }
 
@@ -207,50 +210,49 @@ body {
 
     background-color: rgb(17, 17, 17);
     border: none;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
     height: 13%;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 1rem;
+    margin-top: 1rem;
     display: flex;
-    justify-content:left;
+    justify-content: left;
     text-align: center;
     align-items: center;
 
 }
 
-.spo3 i
-{
-    
-     border:2px solid rgb(37, 36, 36);
-     background-color:rgb(37, 36, 36);
-     height:30px;
-     width:30px;
-     color:rgb(105, 102, 102);
-     margin-left:5px;
-     border-radius:50%;
-     padding:5px;
-     font-size:25px;
+.spo3 i {
 
-     
-    
-}     
-      
-     .spo3 i:hover
-     {
-         
-          border:2px solid rgb(37, 36, 36);
-          background-color:rgb(37, 36, 36);
-          height:30px;
-          width:30px;
-          color:white;
-          margin-left:5px;
-          border-radius:50%;
-          padding:5px;
-          cursor: pointer;
-          
-           
-     }
+    border: .2rem solid rgb(37, 36, 36);
+    background-color: rgb(37, 36, 36);
+    height: 3rem;
+
+    width: 3rem;
+    color: rgb(105, 102, 102);
+    margin-left: .5rem;
+    border-radius: 50%;
+    padding: .5rem;
+    font-size: 2.5rem;
+
+
+
+}
+
+.spo3 i:hover {
+
+    border: .2rem solid rgb(37, 36, 36);
+    background-color: rgb(37, 36, 36);
+    height: 3rem;
+    width: 3rem;
+    color: white;
+    margin-left: .5rem;
+    border-radius: 50%;
+    padding: .5rem;
+    cursor: pointer;
+
+
+}
 
 
 /* next div */
@@ -265,10 +267,10 @@ body {
 } */
 .spo3 h2 {
     color: rgb(105, 102, 102);
-    font-size:18px;
-    margin-right: 15px;
-    margin-left:67%;
-    
+    font-size: 1.8rem;
+    margin-right: 1.5rem;
+    margin-left: 67%;
+
 }
 
 .spo3 h2:hover {
@@ -279,25 +281,25 @@ body {
 
 .spo3 button {
     background-color: white;
-    font-size: 15px;
+    font-size: 1.5rem;
     border: none;
-    margin-right: 20px;
-    border-radius: 30px;
-    width: 90px;
-    height: 40px;
+    margin-right: 2rem;
+    border-radius: 3rem;
+    width: 9rem;
+    height: 4rem;
     cursor: pointer;
-    
+
 }
 
 .spo4 {
 
     background-color: rgb(48, 48, 48);
     border: none;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
     height: 83%;
-    width: 940px;
-    margin-left: 10px;
+    width: 94rem;
+    margin-left: 1rem;
 
 
 
@@ -305,47 +307,47 @@ body {
 
 }
 
-.spo4 b{
-     
-     color:white;
-     margin-left:10px;
-     font-size:25px;
+.spo4 b {
+
+    color: white;
+    margin-left: 1rem;
+    font-size: 2.5rem;
 }
 
-.spo4 p
-{
-    color:rgb(183, 182, 182);
-    float:right;
-    margin-top:15px;
-    margin-right:10px;
+.spo4 p {
+    color: rgb(183, 182, 182);
+    float: right;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
 }
-.spo4 p:hover
-{
-    color:rgb(183, 182, 182);
-    float:right;
-    margin-top:15px;
-    margin-right:10px;
-    text-decoration:underline;
+
+.spo4 p:hover {
+    color: rgb(183, 182, 182);
+    float: right;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    text-decoration: underline;
     cursor: pointer;
 }
-.spo4 .box
-{
-       border:2px solid rgb(37, 36, 36);
-       width:350px;
-       height:280px;
-       margin-top:15px;
-       margin-left:25px;
-       margin-right:5px;
-       background-color:rgb(37, 36, 36);
-       border-radius:20px;
+
+.spo4 .box {
+    border: .2rem solid rgb(37, 36, 36);
+    width: 35rem;
+    height: 28rem;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+    margin-right: .5rem;
+    background-color: rgb(37, 36, 36);
+    border-radius: 2rem;
 }
 
-.row1
-{
-    display:flex;
-    justify-content:space-evenly;
-    text-align:left;
+.row1 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
 }
+
 /* .row2
 {
     display:flex;
@@ -356,13 +358,12 @@ body {
     color: white;
 }
 
-audio
-{
-    width:40px;
-    height:40px;
-    border-radius:50%;
-    margin-top:20px;
-    margin-right:2px;
+.box i {
+    margin-top:2rem;
+    border-radius: 50%;
+    color:white;
+    font-size:3rem;
+    margin-right: 1rem;
     float: right;
 }
 
@@ -373,32 +374,161 @@ audio
          color:white;
    } */
 
-   .spo_img
-   {
-       width:150px;
-       height:200px;
-       margin-top:10px;
-       margin-left:15px;
-       border:none;
-       margin-bottom:8px;
-       border-radius:20px;
-   }
+.spo_img {
+    width: 15rem;
+    height: 20rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    border: none;
+    margin-bottom: .8rem;
+    border-radius: 2rem;
+}
 
-   .box a
-   {
-      color:white;
-      font-size:14px;
-      margin-left:35px;
-      text-decoration:none;
-      
-   }
+.box a {
+    color: white;
+    font-size: 1.4rem;
+    margin-left: 3.5rem;
+    text-decoration: none;
 
-   .box a:hover
-   {
-      color:rgb(125, 124, 124);
-      font-size:14px;
-      margin-left:35px;
-      text-decoration:none;
-      
-   }
-   
+}
+
+.box a:hover {
+    color: rgb(125, 124, 124);
+    font-size: 1.4rem;
+    margin-left: 3.5rem;
+    text-decoration: none;
+
+}
+
+
+@media screen and (max-width:767px) {
+
+    *
+    {
+         
+         margin:0;
+         padding:0;
+         border-radius:0;
+    }
+    html {
+        font-size: 55%;
+    }
+
+    .spo,.spo1,.spo1_1, .spo2, .spo1_2,.row1 {
+        display:none;
+        
+    
+    
+    }
+
+    .mobspo {
+        display: flex;
+        justify-content:space-evenly;
+        flex-direction: column;
+        background-color:#181818;
+        border: none;
+        /* border-radius: 1rem; */
+        height:70%;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .mobspo a {
+        text-decoration: none;
+        color: rgb(100, 99, 99);
+        display: block;
+        font-size: 2rem;
+        padding-left: 2rem;
+        padding-top: 1.5rem;
+        
+        
+    }
+
+    
+    .mobspo a:hover {
+        color: white;
+    }
+    
+    .mobspo1 {
+        
+        background-color:#181818;
+        border-radius:none;
+        display:flex;
+        justify-content:left;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        border: none;
+       border-top:.2rem solid white;
+        width: 25rem;
+        
+        height:25%;
+        margin-left: 1rem;
+    
+    }
+    
+    .mob1
+    {
+        display: flex;
+        justify-content:left;
+        align-items: center;
+        text-align:center;
+    }
+
+    .text img
+    {
+
+        margin-left:-2rem;
+        width:7rem;
+        height:7rem;
+    }
+
+    .text p
+    {
+        color:white;
+        
+        margin-left:1rem;
+        font-size:1.5rem;
+    }
+    
+    .text i
+    {
+        color:white;
+        border:.1rem solid white;
+        border-radius:50%;
+        padding:.5rem;
+        margin-left:1rem;
+        margin-right:1rem;
+        font-size:1.5rem;
+    }
+
+    .mob2
+    {
+        display: flex;
+        justify-content:left;
+        align-items: center;
+        text-align:center;
+    }
+
+    .icon1 i,.icon2 i, .icon3 i
+    {
+        margin-top:2.4rem;
+        margin-left:2rem;
+        margin-right:2rem;
+        font-size:2.5rem;
+        
+        color:white;
+    }
+
+    .mob2 i:hover
+    {
+        margin-top:2.4rem;
+        margin-left:2rem;
+        margin-right:2rem;
+        font-size:2.5rem;
+        cursor: pointer;
+        color:green;
+    
+    }
+    
+    
+}

@@ -1,90 +1,176 @@
 <html>
-
-<head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Spotify</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="main">
+      <div class="spo">
+        <a href=""><i class="fa-brands fa-spotify"></i> Spotify</a>
+        <a href="" class="l"><i class="fa-solid fa-house"></i> Home</a>
+        <a href=""><i class="fa-solid fa-magnifying-glass"></i> Search</a>
+      </div>
 
-        <div class="spo">
-            <a href=""><i class="fa-brands fa-spotify"></i> Spotify</a>
-            <a href="" class="l"><i class="fa-solid fa-house"></i> Home</a>
-            <a href=""><i class="fa-solid fa-magnifying-glass"></i> Search</a>
+      <div class="mobspo">
+        <!-- <a href=""><i class="fa-brands fa-spotify"></i> Spotify</a> -->
+        <a href="" class="l"><i class="fa-solid fa-house"></i> Home</a>
+        <a href=""><i class="fa-solid fa-magnifying-glass"></i> Search</a>
+        <a href=""><i class="fa-regular fa-bookmark"></i> Your Library </a>
+        <a href=""><i class="fa-brands fa-spotify"></i> Preminm</a>
+      </div>
+      <div class="spo1">
+        <div class="spo1_1">
+          <a href=""><i class="fa-regular fa-bookmark"></i> Your Library </a>
+          <p class="a"><i class="fa-solid fa-plus"></i></p>
+        </div>
+        <div class="spo2">
+          <b>Create your first playlist</b>
+          <p>It's easy,we'll help you</p>
+          <button>Create playlist</button>
         </div>
 
-        <div class="spo1">
-            <div class="spo1_1">
+        <div class="spo1_2">
+          <a href="" class="a2">Cookies</a>
 
-                <a href=""><i class="fa-regular fa-bookmark"></i> Your Library </a>
-                <p class="a"><i class="fa-solid fa-plus"></i></p>
-            </div>
-            <div class="spo2">
-
-                <b>Create your first playlist</b>
-                <p>It's easy,we'll help you</p>
-                <button>Create playlist</button>
-            </div>
-
-            <div class="spo1_2">
-
-                <a href="" class="a2">Cookies</a>
-
-                <button><i class="fa-solid fa-globe"></i> English</button>
-            </div>
+          <button><i class="fa-solid fa-globe"></i> English</button>
         </div>
+      </div>
+
+      <div class="mobspo1">
+        <div class="mob1">
+          <div class="text"><img src="Ram.jpeg" alt="" /></div>
+          <div class="text"><p>Ram Aayen hai</p></div>
+          <div class="text"><i class="fa-solid fa-plus"></i></div>
+        
+    <audio id="song1">
+        <source src="ram.mp3" type="audio/mpeg">
+        <source src="ram.ogg" type="audio/ogg">
+    </audio>
+        </div>
+        <div class="mob2">
+          <div class="icon1"><i class="fa-solid fa-laptop"></i></div>
+          <div class="icon2">
+            <i class="fa-solid fa-circle-play" onclick="Open()"  id="play"></i>
+
+            <i style="display:none;" id="Stop"  onclick="Close()" class="fa-solid fa-circle-pause"></i>
+          </div>
+          <div class="icon3"><i class="fa-solid fa-forward-step"></i></div>
+        </div>
+      </div>
     </div>
 
     <div class="main1">
+      <div class="spo3">
+        <i class="fa-solid fa-chevron-left"></i>
+        <i class="fa-solid fa-chevron-right"></i>
 
-        <div class="spo3">
-            <i class="fa-solid fa-chevron-left"></i>
-            <i class="fa-solid fa-chevron-right"></i>
+        <h2>Sign up</h2>
+        <button>Log in</button>
+      </div>
 
-
-            <h2>Sign up</h2>
-            <button>Log in</button>
+      <div class="spo4">
+        <b>Spotify Playlists</b>
+        <p>Show all</p>
+        <div class="row1">
+          <div class="box">
+            <img src="Ram.jpeg" alt="Ram" class="spo_img" />
+            <a href="">Ram Aayenge</a>
+            <i class="fa-solid fa-circle-play" onclick="Open1()"  id="play1"></i>
+            <i style="display:none;" id="Stop1"  onclick="Close1()" class="fa-solid fa-circle-pause"></i>
+            
+            <audio id="song" >
+              <source src="ram.mp3" />
+            </audio>
         </div>
 
+        <div class="box">
+            <img src="Ram.jpeg" alt="Ram" class="spo_img" />
+            <a href="">Ram Aayenge</a>
+            <i class="fa-solid fa-circle-play" onclick="Open2()"  id="play2"></i>
+            <i style="display:none;" id="Stop2"  onclick="Close2()" class="fa-solid fa-circle-pause"></i>
+            
+            <audio >
+              <source src="ram.mp3" />
+            </audio>
+        </div>
 
-        <div class="spo4">
-            <b>Spotify Playlists</b>
-            <p>Show all</p>
-            <div class="row1">
+        <div class="box">
+            <img src="Ram.jpeg" alt="Ram" class="spo_img" />
+            <a href="">Ram Aayenge</a>
+            <i class="fa-solid fa-circle-play" onclick="Open3()"  id="play3"></i>
+            <i style="display:none;" id="Stop3"  onclick="Close3()" class="fa-solid fa-circle-pause"></i>
+            
+            <audio >
+              <source src="ram.mp3" />
+            </audio>
+        </div>
 
-                <div class="box"><img src="Ram.jpeg" alt="Ram" class="spo_img">
-                    <a href="">Ram Aayenge</a><audio controls>
-                        <source src="ram.mp3">
-                    </audio>
-                </div>
-                <div class="box"><img src="Ram.jpeg" alt="Ram" class="spo_img">
-                    <a href="">Ram Aayenge</a><audio controls>
-                        <source src="ram.mp3">
-                    </audio></div>
-                <div class="box">
-                    <img src="Ram.jpeg" alt="Ram" class="spo_img">
-                    <a href="">Ram Aayenge</a><audio controls>
-                        <source src="ram.mp3">
-                    </audio></div>
-                <div class="box"><img src="Ram.jpeg" alt="Ram" class="spo_img">
-                    <a href="">Ram Aayenge</a><audio controls>
-                        <source src="ram.mp3">
-                    </audio></div>
-            </div>
-            <!-- <div class="row2">
+        <div class="box">
+            <img src="Ram.jpeg" alt="Ram" class="spo_img" />
+            <a href="">Ram Aayenge</a>
+            <i class="fa-solid fa-circle-play" onclick="Open4()"  id="play4"></i>
+            <i style="display:none;" id="Stop4"  onclick="Close4()" class="fa-solid fa-circle-pause"></i>
+            
+            <audio >
+              <source src="ram.mp3" />
+            </audio>
+        </div>
+        
+            
+          
+        </div>
+        <!-- <div class="row2">
 
                     <div class="box">this is box1</div>
                     <div class="box">this is box2</div>
                     <div class="box">this is box3</div>
                     <div class="box">this is box4</div>
                 </div> -->
-        </div>
+      </div>
     </div>
+  </body>
 
-</body>
+  <script>
+     function Open()
+     {
+         play.style.display="none";
+         Stop.style.display="block";
+         song.play();
 
+     }
+
+     function Close()
+     {
+         Stop.style.display="none";
+         play.style.display="block";
+         song.pause();
+         
+         
+     }
+
+     function Open1()
+     {
+         play1.style.display="none";
+         Stop1.style.display="block";
+         song1.play();
+
+     }
+
+     function Close1()
+     {
+         Stop1.style.display="none";
+         play1.style.display="block";
+         song1.pause();
+         
+         
+     }
+  </script>
 </html>
