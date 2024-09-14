@@ -659,6 +659,6 @@ body {
 
      .mobspo3,.mobspo4
      {
-        display: inline-block;
+        display:block;
      }
 }
