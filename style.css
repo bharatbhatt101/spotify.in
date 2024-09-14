@@ -709,7 +709,8 @@ body {
         display: flex;
         position: sticky;
         bottom:0;
-        justify-content:left;
+        justify-content:center;
+        background-color: #181818;
         align-items: center;
         text-align:center;
         flex-direction: column;
@@ -718,26 +719,26 @@ body {
     .songd
     {
         display:flex;
-        justify-content: center;
+        justify-content:left;
         text-align: center;
         align-items: center;
     }
-
     
-
+    
+    
     .ic1
     {
         display:flex;
-        justify-content:space-evenly;
-        background-color: #181818;
+        
+        justify-content:left;
         text-align: center;
-        align-items: center;
+        align-items:center;
     }
 
     .ic1 i
     {
         color:white;
-
+    
         font-size:2rem;
     }
 }
