@@ -448,7 +448,7 @@ body {
         text-decoration: none;
         color: rgb(100, 99, 99);
         display: block;
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding-left: 2rem;
         padding-top: 1.5rem;
         
@@ -471,9 +471,8 @@ body {
         flex-direction: column;
         border: none;
        border-top:.2rem solid white;
-        width: 25rem;
-        
-        height:25%;
+        width: 20rem;
+        height:30%;
         margin-left: 1rem;
     
     }
@@ -489,9 +488,9 @@ body {
     .text img
     {
 
-        margin-left:-2rem;
-        width:7rem;
-        height:7rem;
+        
+        width:5rem;
+        height:5rem;
     }
 
     .text p
@@ -499,7 +498,7 @@ body {
         color:white;
         
         margin-left:1rem;
-        font-size:1.5rem;
+        font-size:1.3rem;
     }
     
     .text i
@@ -544,10 +543,9 @@ body {
      
     .mobspo3 {
 
-        background-color: rgba(15, 12, 12, 0.41);
+        background-color:#181212;
         border: none;
-        height: 12%;
-        
+        height:15%;
         margin-right: 1rem;
         margin-top: 1rem;
         display: flex;
@@ -594,13 +592,13 @@ body {
     
     .mobspo4 {
         
-        background-color: rgb(17, 17, 17);
+        background-color:#181212;
         border: none;
         display: block;       
-        height: 83.2%;
+        height:85%;
         margin-right: 1rem;
         
-        /* margin-left: 1rem; */
+    
         
     }
      
@@ -608,16 +606,17 @@ body {
     .mobrow1 {
         display: flex;
         flex-wrap: wrap;
-        justify-content:left;
+        justify-content:center;
         text-align:center;
         align-items: center;
     }
     
     .rmob1
     {
-        border:.1rem solid grey;
+        border:.1rem solid #181818;
         display: flex;        
         flex-wrap: wrap;
+        background-color:#181818;
         height:5rem;
         justify-content:center;
         align-items: center;
@@ -649,4 +648,17 @@ body {
         font-size:1.3rem;
     }   
     
+}
+
+@media screen and (max-width:470px)
+ {
+     .mobspo,.mobspo1,.spo,.spo1,.spo3,.spo4
+     {
+        display:none;
+     }         
+
+     .mobspo3,.mobspo4
+     {
+        display: inline-block;
+     }
 }
