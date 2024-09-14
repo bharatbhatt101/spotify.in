@@ -36,7 +36,7 @@ body {
 
 }
 
-.mobspo,.mobspo1 {
+.mobspo,.mobspo1,.mobspo3,.mobspo4 {
     display: none;
 }
 
@@ -210,6 +210,7 @@ body {
 
     background-color: rgb(17, 17, 17);
     border: none;
+    
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
     height: 13%;
@@ -295,6 +296,7 @@ body {
 
     background-color: rgb(48, 48, 48);
     border: none;
+     
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     height: 83%;
@@ -367,6 +369,16 @@ body {
     float: right;
 }
 
+.box i:hover {
+    margin-top:2rem;
+    border-radius: 50%;
+    color:green;
+    cursor: pointer;
+    font-size:3rem;
+    margin-right: 1rem;
+    float: right;
+}
+
 /* audio::-webkit-file-upload-button,
    audio::-webkit-file-upload-button{
       
@@ -414,7 +426,7 @@ body {
         font-size: 55%;
     }
 
-    .spo,.spo1,.spo1_1, .spo2, .spo1_2,.row1 {
+    .spo,.spo1,.spo1_1, .spo2, .spo1_2,.row1,.spo3,.spo4 {
         display:none;
         
     
@@ -529,6 +541,112 @@ body {
         color:green;
     
     }
+     
+    .mobspo3 {
+
+        background-color: rgba(15, 12, 12, 0.41);
+        border: none;
+        height: 12%;
+        
+        margin-right: 1rem;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: left;
+        text-align: center;
+        align-items: center;
     
+    }
+    
+    .profile
+    {
+        border:.2rem solid rgb(43, 90, 43);
+        background-color: rgb(43, 90, 43);
+         width:4rem;
+         color:black;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         font-size:2.5rem;
+         height:4rem;
+         margin-left:1rem;
+         margin-right:1rem;
+         border-radius:50%;
+        }
+        
+    #mopt
+    {
+        background-color:green;
+        color:black;
+    }
+    .opt
+    {
+        width:7rem;
+        cursor: pointer;
+        color:white;
+        background-color: #55525235;
+        border:none;
+        padding:1rem;
+        font-size:1.2rem;
+        border-radius:2rem;
+        margin-left:.5rem;
+    }
+    
+    .mobspo4 {
+        
+        background-color: rgb(17, 17, 17);
+        border: none;
+        display: block;       
+        height: 83.2%;
+        margin-right: 1rem;
+        
+        /* margin-left: 1rem; */
+        
+    }
+     
+    
+    .mobrow1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:left;
+        text-align:center;
+        align-items: center;
+    }
+    
+    .rmob1
+    {
+        border:.1rem solid grey;
+        display: flex;        
+        flex-wrap: wrap;
+        height:5rem;
+        justify-content:center;
+        align-items: center;
+        text-align:center;
+        margin:1.5rem;
+    }   
+
+    ._text1 img
+    {
+
+        
+        width:5rem;
+        
+        
+        height:5rem;
+    }
+    
+
+
+    
+    
+    
+    
+    ._text p
+    {
+        color:white;
+        margin-left:.5rem;
+        margin-right:.5rem;
+        font-size:1.3rem;
+    }   
     
 }
