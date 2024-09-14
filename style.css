@@ -618,7 +618,7 @@ body {
         flex-wrap: wrap;
         background-color:#181818;
         height:5rem;
-        justify-content:center;
+        justify-content:left;
         align-items: center;
         text-align:center;
         margin:1.5rem;
@@ -661,4 +661,83 @@ body {
      {
         display:block;
      }
+
+     .mobspo3 {
+
+        background-color:#181212;
+        border: none;
+        height:15%;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: left;
+        text-align: center;
+        align-items: center;
+        position: sticky;
+        top:0; 
+    }
+
+    .mobspo4 {
+        
+        background-color:#181212;
+        border: none;
+        display: block;       
+        height:85%;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        
+    
+        
+    }
+
+     .rmob1
+    {
+        border:.1rem solid #181818;
+        display: flex;        
+        flex-wrap: wrap;
+        background-color:#181818;
+        height:5rem;
+        justify-content:left;
+        align-items: center;
+        text-align:center;
+        margin:1.5rem;
+    }
+
+    .mobile470
+    {
+        display: flex;
+        position: sticky;
+        bottom:0;
+        justify-content:left;
+        align-items: center;
+        text-align:center;
+        flex-direction: column;
+    }
+
+    .songd
+    {
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    
+
+    .ic1
+    {
+        display:flex;
+        justify-content:space-evenly;
+        background-color: #181818;
+        text-align: center;
+        align-items: center;
+    }
+
+    .ic1 i
+    {
+        color:white;
+
+        font-size:2rem;
+    }
 }
