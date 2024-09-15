@@ -606,7 +606,7 @@ body {
     .mobrow1 {
         display: flex;
         flex-wrap: wrap;
-        justify-content:center;
+        justify-content:left;
         text-align:center;
         align-items: center;
     }
@@ -618,8 +618,8 @@ body {
         flex-wrap: wrap;
         background-color:#181818;
         height:5rem;
-        justify-content:left;
-        align-items: center;
+        justify-content:center;
+        align-items:center;
         text-align:center;
         margin:1.5rem;
     }   
@@ -652,6 +652,10 @@ body {
 
 @media screen and (max-width:470px)
  {
+    html
+    {
+        font-size:45%;
+    }
      .mobspo,.mobspo1,.spo,.spo1,.spo3,.spo4
      {
         display:none;
@@ -683,7 +687,7 @@ body {
         background-color:#181212;
         border: none;
         display: block;       
-        height:85%;
+        height:80%;
         margin-right: 1rem;
         margin-left: 1rem;
         
@@ -696,32 +700,54 @@ body {
         border:.1rem solid #181818;
         display: flex;        
         flex-wrap: wrap;
+    
         background-color:#181818;
-        height:5rem;
-        justify-content:left;
-        align-items: center;
+        height:4rem;
+        justify-content:center;
+        align-items:center;
         text-align:center;
-        margin:1.5rem;
+        margin:2.5rem;
+    }
+
+    .text img
+    {
+
+        
+        width:4rem;
+        height:4rem;
     }
 
     .mobile470
     {
         display: flex;
-        position: sticky;
+        position:fixed;
         bottom:0;
-        justify-content:center;
+        left:0;
+        right:0;
+        width:100%;
+        justify-content:left;
         background-color: #181818;
-        align-items: center;
+        align-items:left;
         text-align:center;
+        height:8.5rem;
         flex-direction: column;
     }
 
     .songd
     {
         display:flex;
+        background-color:rgb(214, 127, 127);
         justify-content:left;
         text-align: center;
         align-items: center;
+    }
+
+    ._text_ i
+    {
+        color:white;
+        
+        font-size:2rem;
+
     }
     
     
@@ -729,16 +755,20 @@ body {
     .ic1
     {
         display:flex;
-        
-        justify-content:left;
-        text-align: center;
-        align-items:center;
+        border-top:.2rem solid white;
+        width:100%;
+        margin-bottom:3.5rem;
+
+        justify-content:space-around;
+        text-align:left;
+        align-items:left;
     }
 
     .ic1 i
     {
         color:white;
-    
+        margin-left:-4rem; 
+        padding:.5rem;
         font-size:2rem;
     }
 }
