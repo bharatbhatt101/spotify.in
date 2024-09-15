@@ -16,6 +16,8 @@ body {
     display: flex;
 }
 
+
+
 /* .main
 {
     
@@ -36,7 +38,7 @@ body {
 
 }
 
-.mobspo,.mobspo1,.mobspo3,.mobspo4 {
+.mobspo,.mobspo1,.mobspo3,.mobspo4,.mobile470 {
     display: none;
 }
 
@@ -426,7 +428,7 @@ body {
         font-size: 55%;
     }
 
-    .spo,.spo1,.spo1_1, .spo2, .spo1_2,.row1,.spo3,.spo4 {
+    .spo,.spo1,.spo1_1, .spo2, .spo1_2,.row1,.spo3,.spo4,.mobile470 {
         display:none;
         
     
@@ -654,7 +656,7 @@ body {
  {
     html
     {
-        font-size:45%;
+        font-size:47%;
     }
      .mobspo,.mobspo1,.spo,.spo1,.spo3,.spo4
      {
@@ -745,7 +747,8 @@ body {
     ._text_ i
     {
         color:white;
-        
+        margin-left:3rem;
+        margin-right:2rem;       
         font-size:2rem;
 
     }

@@ -14,7 +14,7 @@
 
   <body>
     <div class="main">
-      <div class="spo">
+      <div class="spo" id="h1">
         <a href=""><i class="fa-brands fa-spotify"></i> Spotify</a>
         <a href="" class="l"><i class="fa-solid fa-house"></i> Home</a>
         <a href=""><i class="fa-solid fa-magnifying-glass"></i> Search</a>
@@ -27,7 +27,7 @@
         <a href=""><i class="fa-regular fa-bookmark"></i> Your Library </a>
         <a href=""><i class="fa-brands fa-spotify"></i> Preminm</a>
       </div>
-      <div class="spo1">
+      <div class="spo1" id="h2">
         <div class="spo1_1">
           <a href=""><i class="fa-regular fa-bookmark"></i> Your Library </a>
           <p class="a"><i class="fa-solid fa-plus"></i></p>
@@ -68,15 +68,15 @@
       </div>
     </div>
 
-    <div class="main1">
-      <div class="spo3">
-        <i class="fa-solid fa-chevron-left"></i>
-        <i class="fa-solid fa-chevron-right"></i>
+    <div class="main1" >
+      <div class="spo3" id="h3" >
+        <i class="fa-solid fa-chevron-left" onclick="Cl()"></i>
+        <i class="fa-solid fa-chevron-right" onclick="Op()"></i>
 
         <h2>Sign up</h2>
         <button>Log in</button>
       </div>
-      <div class="spo4">
+      <div class="spo4" id="h4" >
         <b>Spotify Playlists</b>
         <p>Show all</p>
         <div class="row1">
@@ -213,7 +213,7 @@
               <div class="_text1"><img src="Ram.jpeg" alt="Ram"/></div>
               <div class="_text"><p>Ram Aayen hai</p></div>
               <div class="_text_"><i class="fa-solid fa-laptop"></i></div>
-              <div class="_text_"><i class="fa-solid fa-plus"></i></div>
+              <div class="_text_"><i class="fa-solid fa-plus" style="border: .2rem solid white; border-radius:50%; padding:.5rem;"></i></div>
               <div class="_text_"><i class="fa-solid fa-circle-play" onclick="Open()"  id="play"></i>
                 <i style="display:none;" id="Stop1"  onclick="Close1()" class="fa-solid fa-circle-pause"></i>
               </div>
@@ -278,6 +278,23 @@
          _play.style.display="block";
          _im.style.display="none";
                  //  song1.pause();
+         
+         
+     }
+
+     function Op()
+     {
+         h1.style.display="block";
+         h2.style.display="block";
+        
+         
+         
+     }
+
+     function Cl()
+     {
+         h1.style.display="none";
+         h2.style.display="none";      
          
          
      }
