@@ -689,6 +689,8 @@ body {
         align-items: center;
         position: sticky;
         top:0; 
+        left:0; 
+        right:0; 
     }
 
     .mobspo4 {
@@ -696,7 +698,7 @@ body {
         background-color:#181212;
         border: none;
         display: block;       
-        height:80%;
+        height:fit-content;
         margin-right: 1rem;
         margin-left: 1rem;
         
@@ -711,7 +713,7 @@ body {
         flex-wrap: wrap;
     
         background-color:#181818;
-        height:4rem;
+        height:5rem;
         justify-content:left;
         align-items:center;
         text-align:center;
