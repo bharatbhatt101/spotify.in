@@ -765,16 +765,14 @@ body {
     {
         display:flex;
         background-color:rgb(214, 127, 127);
-        justify-content:left;
+        justify-content:space-between;
         text-align: center;
         align-items: center;
     }
 
     ._text_ i
     {
-        color:white;
-        margin-left:3rem;
-        margin-right:2rem;       
+        color:white;       
         font-size:2rem;
 
     }
